@@ -1,0 +1,145 @@
+body{
+    background: linear-gradient(hsl(0, 0%, 100%), hsl(221, 100%, 96%));
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 1440px;
+  }
+  .container{
+    display: flex;
+    width: 50%; 
+    background-color: hsl(0, 0%, 100%);
+    border-radius:30px;
+  }
+
+  .result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:50%; 
+    text-align: center;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(241, 100%, 89%);
+    padding: 30px;
+    border-radius: 30px;
+  }
+
+  .summary{
+    width: 50%;
+    padding: 20px;
+  }
+  .circle{
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    align-self: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 40px;
+    margin: 10px;
+  }
+  #circle{
+    color:  hsl(0, 0%, 100%) ;
+    font-size: 70px;
+    font-weight: 800 ;      
+  }
+  .great{
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .list{
+    border-radius: 10px;
+    margin: 15px 0;
+    padding: 15px;
+    margin-left: 0;
+    font-weight: 600;
+  }
+
+  #reaction{
+    color: hsl(0, 100%, 67%);
+    word-spacing: 8px;
+  }
+  #memory{
+    color: hsl(39, 100%, 56%);
+    word-spacing: 8px;
+  }
+  #verbal{
+    color: hsl(166, 100%, 37%);
+    word-spacing: 8px;
+  }
+  #visual{
+    color: hsl(234, 85%, 45%);
+    word-spacing: 8px;
+  }
+
+  .reaction{
+    background-color: hsl(0, 100%, 67%, 10%);
+  }
+  .memory{
+    background-color: hsl(39, 100%, 56%, 10%);
+  }
+  .verbal{
+    background-color: hsl(166, 100%, 37%, 10%) ;
+  }
+  .visual{
+    background-color: hsl(234, 85%, 45%, 10%);
+  }
+
+  .score{
+    float: right;
+  }
+  .outof{
+    color: hsl(224, 30%, 27%, 60%);
+  }
+  .continue{
+    background-color: hsl(224, 30%, 27%);
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    margin: 10px 15px;
+    width: 90%;
+  }
+  button a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+  }
+  button:hover{
+    background:linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)) ;
+    
+  }
+
+
+  @media(max-width:375px) {
+    
+    body{
+      background: none;
+      width: 90%;
+      margin: 0;
+      font-size: 15px;
+
+    }
+
+    .container{
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      width: 100%;
+    }
+
+    .result{
+      width: 100%;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      padding: 20px;
+    }
+    .summary{
+      width: 100%;
+      margin: 0;
+    }
+
+  }
