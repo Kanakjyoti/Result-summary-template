@@ -16,7 +16,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: [Solution URL](https://github.com/Kanakjyoti/Result-summary-template.git)
-- Live Site URL: [Live site URL](https://kanakjyoti.github.io/Result-summary-template/)
+- Live Site URL: [Live site URL](https://kanakjyoti.github.io/Result-summary-webpage/)
 
 
 ## Built with
